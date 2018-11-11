@@ -1,0 +1,22 @@
+{
+    "name": "mortenscheel/laravel-spam-protect",
+    "authors": [
+        {
+            "name": "Morten Scheel",
+            "email": "morten@mortenscheel.com"
+        }
+    ],
+    "version": "1.0",
+    "autoload": {
+        "psr-4": {
+            "MortenScheel\\SpamProtect\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MortenScheel\\SpamProtect\\SpamProtectServiceProvider"
+            ]
+        }
+    }
+}
